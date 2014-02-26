@@ -791,7 +791,7 @@ $(full_target): $(framework_built) $(gen)
 .PHONY: checkbuild
 checkbuild: doc-comment-check-docs
 
-# ====  static html in the sdk ==================================
+# ====  static html in the sdkd ==================================
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES:=$(framework_docs_LOCAL_SRC_FILES)
